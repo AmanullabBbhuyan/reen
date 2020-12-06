@@ -1,0 +1,418 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+a, a:hover{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-decoration: none;
+}
+
+/* REEN Project css code start here */
+.header-section{
+    width: 100%;
+}
+.top-header{
+    width: 100%;
+    background: #f5f7fa;
+    padding: 5px 0px;
+}
+.top-header .info-inner ul{
+    margin: 0px;
+    padding: 0px;
+    display: block;
+}
+.top-header .info-inner ul li{
+    list-style: none;
+    display: inline-block;
+}
+.top-header .info-inner ul li a{
+    font-size: 14px;
+    font-weight: 600;
+    color: #506a85;
+    margin-right: 15px;
+}
+.top-header .info-inner ul li a:hover{
+    color: #60d5c1;
+}
+.top-header .info-inner ul li a i{
+    margin-right: 5px;
+}
+
+/* socile icons section start here */
+
+.top-header .socile-icons{
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    text-align: right;
+}
+.top-header .socile-icons li{
+    list-style: none;
+    display: inline-block;
+}
+.top-header .socile-icons li a{
+    font-size: 14px;
+    font-weight: 600;
+    color: #506a85;
+    margin-left: 15px;
+}
+.top-header .socile-icons li a:hover{
+    color: #60d5c1;
+}
+/* main menu css start here */
+.main-menu{
+    width: 100%;
+}
+.main-menu .bg-light{
+    background: transparent !important;
+}
+.main-menu .navbar-light .navbar-nav .active>.nav-link {
+    color: #506a85;
+}
+.main-menu .navbar-light .navbar-nav .nav-link {
+    color: #506a85;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0px 15px;
+    transition:1s;
+}
+.main-menu .navbar-light .navbar-nav .nav-link:hover,.main-menu .navbar-light .navbar-nav .nav-link:focus{
+    color: #60d5c1;
+}
+.main-menu .fa-search{
+    color: #506a85;
+    font-size: 14px;
+    font-weight: 700;
+}
+.main-menu .fa-search:hover,.main-menu .fa-search:focus{
+    color: #60d5c1;
+}
+/* slider section start here */
+.slider-sectio{
+    width: 100%;
+}
+.slider-sectio .carousel-caption{
+    bottom: 30%;
+}
+.slider-sectio .carousel-caption h2{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.slider-sectio .carousel-caption p{
+    font-size: 16px;
+    line-height: 26px;
+    color:#a3b1bf;
+}
+.slider-sectio .carousel-caption .btn-info{
+    padding: 10px 35px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background:#00bc9c;
+    border: 1px solid #00bc9c;
+    color:#fff;
+    transition: .5s;
+}
+.slider-sectio .carousel-caption .btn-info:hover{
+    background:transparent;
+    border: 1px solid #00bc9c;
+    color:#00bc9c;
+}
+/* slider section start end*/
+
+/* woh-we section start */
+
+.woh-we{
+    width: 100%;
+    padding: 80px 0px;
+}
+.woh-we .title{
+    width: 100%;
+    text-align: center;
+    padding: 0px 0px 40px;
+}
+.woh-we .title h2{
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #506a85;
+}
+.woh-we .title p {
+    width: 60%;
+    margin: 0px auto;
+    font-size: 16px;
+    line-height: 26px;
+    color: #506a85;
+}
+.woh-we .media{
+    padding: 30px 0px 0px;
+}
+.woh-we .media-body{
+    padding: 0px 10px;
+}
+.woh-we .media-body h5{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #506a85;
+    margin: 0px 0px 10px;
+}
+.woh-we .media-body p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #506a85;
+}
+/* woh-we section end */
+
+/* protfulio start */
+.portfulio{
+    width: 100%;
+    padding: 80px;
+    background: #f2f5f7;
+}
+.portfulio .title{
+    width: 100%;
+    text-align: center;
+    padding: 0px 0px 60px;
+}
+.portfulio .title h2{
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #506a85;
+}
+.portfulio .title p {
+    width: 60%;
+    margin: 0px auto;
+    font-size: 16px;
+    line-height: 26px;
+    color: #506a85;
+}
+.portfulio .card-body{
+    text-align: center;
+}
+.portfulio .card-body h5{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #506a85;
+    margin-bottom: 5px;
+}
+.portfulio .card-body p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #a3b1bf;
+}
+.portfulio .owl-carousel{
+    width: 100%;
+    padding: 60px 0px 80px;
+}
+.portfulio .owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 30px;
+}
+.portfulio .owl-theme .owl-dots .owl-dot.active span, .portfulio .owl-theme .owl-dots .owl-dot:hover span{
+    background: #00bc9c;
+}
+/* protfulio end */
+
+/* get in tuch coding start  */
+
+.getin-tuch{
+    width: 100%;
+    margin: 80px 0px;
+}
+.getin-tuch .title{
+    width: 100%;
+    text-align: center;
+}
+.getin-tuch .title h2{
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #5f768e;
+}
+.getin-tuch .title p{
+    font-size: 16px;
+    line-height: 26px;
+    color:#5f768e;
+}
+.getin-tuch .title .btn-primary{
+    padding: 10px 20px;
+    margin: 20px 0px 60px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background:#00bc9c;
+    border: 1px solid #00bc9c;
+    color:#fff;
+    transition: .5s;
+}
+.getin-tuch .title .btn-primary:hover{
+    background:transparent;
+    border: 1px solid #00bc9c;
+    color:#00bc9c;
+}
+
+/* get in tuch coding end  */
+
+/* fotter coding start here */
+
+.footer{
+    width: 100%;
+}
+.footer .top-footer{
+    width: 100%;
+    padding: 80px 0px;
+    background: #2f4052;
+}
+
+.inner-widget h4 {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    color: #bbbfc5;
+    text-transform: uppercase;
+}
+.inner-widget img{
+   margin-bottom: 20px;
+}
+.inner-widget p{
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #a3b1bf;
+}
+.inner-widget a{
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 0px;
+    color: #a3b1bf;
+}
+.inner-widget a i{
+   margin-left: 10px;
+}
+.inner-widget .card{
+    border: none;
+    border-radius: 0;
+}
+.inner-widget .card img{
+    width: 100%;
+}
+.inner-widget .mb-4 {
+    margin-bottom: .5rem!important;
+    padding-right: 0px !important;
+    padding-left: 10px;
+    margin-left: 0px;
+}
+.inner-widget .card-img-top {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.inner-bottom h4{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    color: #bbbfc5;
+    text-transform: uppercase;
+}
+.inner-bottom p{
+    margin-left: 20px;
+    color: #bbbfc5;
+}
+.inner-bottom p i{
+    margin-right: 10px;
+}
+.footer-form{
+    width: 100%;
+    position: relative;
+}
+.footer-form .form-control{
+    height: auto;
+    padding: 10px 4px;
+    background: #4e5c6c;
+    color: #a3b1bf ;
+    border: 1px solid  #4e5c6c;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.footer-form .btn-primary {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    padding: 5px 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background: #00bc9c;
+    border: 1px solid #00bc9c;
+    color: #ffffff;
+    border-radius: 5px;
+}
+.footer-form .btn-primary:hover{
+    background: transparent;
+    border: 1px solid #00bc9c;
+    color: #ffffff;
+    transition: 1s;
+}
+
+/* fotter coding end here */
+/* bottom footer coding start */
+
+.bottom-footer{
+    width: 100%;
+    background: #283645;
+    padding: 20px 0px;
+}
+.bottom-footer p{
+    width: 100%;
+    font-size: 13px;
+    font-weight: 700;
+    color: #707e8c;
+    margin: 18px 0px;
+}
+.bottom-footer ul{
+    margin-left: 141px;
+    display: block;
+       
+}
+.bottom-footer ul li{
+    padding: 15px 0px 0;
+    list-style: none;
+    display: inline-block;
+}
+.bottom-footer ul li a{
+    font-size: 16px;
+    font-weight: 600;
+    color:  #707e8c;
+    margin-right: 0px;
+}
+.bottom-footer ul li a i {
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+/* bottom footer coding end */
+
+
+
